@@ -2,12 +2,15 @@
 **INSTALAÇÃO DE AMBIENTE UTILIZANDO ANSIBLE E VAGRANT**
 
 **CRIANDO O ARQUIVO VAGRANTFILE**
-#-- vagrant init 
+
+-- vagrant init 
 
 **PROVISIONANDO A MAQUINA CENTOS/7**
-#-- vagrant up
+
+-- vagrant up
 
 **ACESSANDO A MAQUINA VIRTUAL CENTOS/7**
-#-- vagrant ssh
+
+-- vagrant ssh
 
 
