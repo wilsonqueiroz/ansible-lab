@@ -1,11 +1,27 @@
-INSTALAÇÃO E CONFIGURAÇÃO DO ANSIBLE USANDO VAGRANT NUM HOST CENTOS/7
+# ANSIBLE
 
-CRIANDO O ARQUIVO VAGRANTFILE
--- vagrant init 
 
-PROVISIONANDO A MAQUINA CENTOS/7
--- vagrant up
+##### INSTALL AND CONFIGURE  ANSIBLE WITH VAGRANT.
 
-ACESSANDO A MAQUINA VIRTUAL CENTOS/7
--- vagrant ssh
+
+### Installation
+
+**CREATE DIRECTORY**
+```sh
+$ mkdir ansible && cd ansible
+```
+**CREATE VAGRANTFILE**
+```sh
+$ vagrant init
+```
+**PROVISIONING VIRTUAL MACHINE CENTOS/7**
+```sh
+$ vagrant up
+```
+**ACESSING VIRTUAL MACHINE CENTOS/7 WITH SSH**
+```sh
+$ vagrant ssh
+```
+
+
 
