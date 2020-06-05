@@ -1,23 +1,27 @@
 # ANSIBLE
 
 
-# INSTALANDO E CONFIGURANDO O ANSIBLE COM O VAGRANT !
+##### INSTALL AND CONFIGURE  ANSIBLE WITH VAGRANT.
 
 
+### Installation
 
-**CRIANDO O ARQUIVO VAGRANTFILE**
-
-
+**CREATE DIRECTORY**
+```sh
+$ mkdir ansible && cd ansible
+```
+**CREATE VAGRANTFILE**
 ```sh
 $ vagrant init
-
 ```
-**PROVISIONANDO A MAQUINA CENTOS/7**
+**PROVISIONING VIRTUAL MACHINE CENTOS/7**
+```sh
+$ vagrant up
+```
+**ACESSING VIRTUAL MACHINE CENTOS/7 WITH SSH**
+```sh
+$ vagrant ssh
+```
 
--- vagrant up
-
-**ACESSANDO A MAQUINA VIRTUAL CENTOS/7**
-
--- vagrant ssh
 
 
