@@ -3,8 +3,11 @@
 
 **CRIANDO O ARQUIVO VAGRANTFILE**
 
--- vagrant init 
 
+```sh
+$ vagrant init
+
+```
 **PROVISIONANDO A MAQUINA CENTOS/7**
 
 -- vagrant up
